@@ -62,13 +62,15 @@
   top: 0;
 }
 .timeline .event:before {
-  left: -177.5px;
+  /*left: -177.5px;*/
+  left: -40%;
   color: #212121;
   content: attr(data-date);
   text-align: right;
   /*  font-weight: 100;*/
   
   font-size: 0.7em;
-  min-width: 120px;
+  /*min-width: 120px;*/
+  width: 25%;
 }
 
