@@ -1,5 +1,7 @@
-.timeline {
-  border-left: 7px solid #42A5F5;
+.timeline_b, .timeline_r {
+  /*border-left: 7px solid #42A5F5;*/
+  border-left: 7px solid;
+  border-left-color: #42A5F5;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -13,26 +15,48 @@
   text-align: left;
 }
 
-.timeline .event {
+.timeline_b h1,
+.timeline_b h2,
+.timeline_b h3,
+.timeline_r h1,
+.timeline_r h2,
+.timeline_r h3 {
+  font-size: 1.2em;
+}
+.timeline_b h4,
+.timeline_r h4 {
+  font-size: 1.0em;
+}
+
+.timeline_b p,
+.timeline_r p {
+  font-size: 0.8em;
+}
+
+.timeline_r {
+  border-left-color: tomato;
+}
+
+.event_b, .event_r {
   border-bottom: 1px solid rgba(160, 160, 160, 0.2);
   padding-bottom: 15px;
   margin-bottom: 20px;
   position: relative;
 }
 
-.timeline .event:last-of-type {
+.event_b:last-of-type, .event_r:last-of-type {
   padding-bottom: 0;
   margin-bottom: 0;
   border: none;
 }
 
-.timeline .event:after {
+.event_b:after, .event_r:after {
   position: absolute;
   display: block;
   top: 0;
 }
 
-.timeline .event:after {
+.event_b:after, .event_r:after {
   box-shadow: 0 0 0 7px #42A5F5;
   left: -29px;
   background: #212121;
@@ -43,25 +67,17 @@
   top: 5px;
 }
 
-.timeline h1,
-.timeline h2,
-.timeline h3 {
-  font-size: 1.2em;
-}
-.timeline h4 {
-  font-size: 1.0em;
+.event_r:after {
+  box-shadow: 0 0 0 7px tomato;
 }
 
-.timeline p {
-  font-size: 0.8em;
-}
-
-.timeline .event:before {
+.event_b:before, .event_r:before {
   position: absolute;
   display: block;
   top: 0;
 }
-.timeline .event:before {
+
+.event_b:before, .event_r:before{
   /*left: -177.5px;*/
   left: -165px;
   color: #212121;
