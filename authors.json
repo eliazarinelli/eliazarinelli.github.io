@@ -1,0 +1,52 @@
+{
+    "nodes_data":  [
+        {"name": "a_0", "type": "author", "title": "Elia Zarinelli"},
+        {"name": "p_0", "type": "paper", "title": "Beyond the square root: Evidence for logarithmic dependence of market impact on size and participation rate", "web": "https://arxiv.org/abs/1412.2152"},
+        {"name": "p_1", "type": "paper", "title": "On the concentration of large deviations for fat tailed distributions, with application to financial data", "web": "https://arxiv.org/abs/1201.2817"},
+        {"name": "p_2", "type": "paper", "title": "Reconstruction of financial network for robust estimation of systemic risk", "web": "https://arxiv.org/abs/1109.6210"},
+        {"name": "p_3", "type": "paper", "title": "Extreme Value Statistics Distributions in Spin Glasses", "web": "https://arxiv.org/abs/1107.1795"},
+        {"name": "p_4", "type": "paper", "title": "Role of the Tracy-Widom distribution in the finite-size fluctuations of the critical temperature of the Sherrington-Kirkpatrick spin glass", "web": "https://arxiv.org/abs/1104.4726"},
+        {"name": "p_5", "type": "paper", "title": "Surface Tension in Kac Glass Models", "web": "https://arxiv.org/abs/0912.2764"},
+        {"name": "a_1", "type": "author", "title": "Silvio Franz"},
+        {"name": "a_2", "type": "author", "title": "Michele Castellana"},
+        {"name": "a_3", "type": "author", "title": "Aurelien Decelle"},
+        {"name": "a_4", "type": "author", "title": "Iacopo Matromatteo"},        
+        {"name": "a_5", "type": "author", "title": "Matteo Marsili"},
+        {"name": "a_6", "type": "author", "title": "Mario Filiasi"},
+        {"name": "a_7", "type": "author", "title": "Giacomo Livan"},
+        {"name": "a_8", "type": "author", "title": "Maria Peressi"},
+        {"name": "a_9", "type": "author", "title": "Erik Vesselli"},
+        {"name": "a_10", "type": "author", "title": "Michele Treccani"},
+        {"name": "a_11", "type": "author", "title": "Doyne J. Farmer"},
+        {"name": "a_12", "type": "author", "title": "Fabrizio Lillo"}
+    ],
+    "links_data":  [
+        {"source": "a_0", "target": "p_0"},
+        {"source": "a_0", "target": "p_1"},
+        {"source": "a_0", "target": "p_2"},
+        {"source": "a_0", "target": "p_3"},
+        {"source": "a_0", "target": "p_4"},
+        {"source": "a_0", "target": "p_5"},
+        
+        {"source": "p_0", "target": "a_12"},
+        {"source": "p_0", "target": "a_11"},
+        {"source": "p_0", "target": "a_10"},
+        
+        {"source": "p_1", "target": "a_9"},
+        {"source": "p_1", "target": "a_8"},
+        {"source": "p_1", "target": "a_7"},
+        {"source": "p_1", "target": "a_6"},
+        {"source": "p_1", "target": "a_5"},
+
+        {"source": "p_2", "target": "a_5"},
+        {"source": "p_2", "target": "a_4"},
+
+        {"source": "p_3", "target": "a_3"},
+        {"source": "p_3", "target": "a_2"},
+
+        {"source": "p_4", "target": "a_2"},
+
+        {"source": "p_5", "target": "a_1"}
+
+    ]
+}
